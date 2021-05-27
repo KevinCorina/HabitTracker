@@ -1,0 +1,25 @@
+.habitInput {
+    text-align: center;
+    font-size: .66em;
+    background-Color: #264653;
+    border: 1px solid white;
+    padding-left: 2em; 
+    padding-right:2em;
+    margin-bottom: 2em;
+}
+
+.habitInput input {
+    margin-top:.2em;
+}
+
+.hideButton {
+    margin-right: -1.5em;
+    float: right;
+    color: white;
+}
+
+.addButton {
+    text-align: center;
+    color: white;
+
+}

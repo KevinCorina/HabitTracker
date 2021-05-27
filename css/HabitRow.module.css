@@ -1,0 +1,76 @@
+.habitRow {
+    height: 1em;
+} 
+
+.habitRow:hover {
+    background: black;
+}
+
+.habitLabel {
+    max-width: 15em;
+    text-align: right;
+    font-size: .8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.future {
+    cursor: default ;
+}
+
+.editButton {   
+    font-size: .8em;
+    width: 2em;
+}
+
+.editButton:hover {
+    cursor: pointer;
+    color: #af316a;
+}
+
+.selected {
+    background-color: black;
+    cursor: grabbing;
+}
+
+.selected:active {
+    cursor: grabbing;
+}
+
+.handle {
+    width: 2em;
+    font-size: .5em;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    height:inherit;
+}
+
+.handle:hover {
+    cursor: grab;
+    color: #af316a;
+}
+
+.handle:active:hover {
+    cursor:grabbing;
+}
+
+.progress {
+    font-size: .5em;
+    padding-left: 1em;
+    width: 2.5em;
+    text-align: center;
+}
+
+.habitEditor {
+    font-size: .56em;
+    border: 1px solid white;
+    height: 3em;
+}
+
+.habitEditor a {
+    color: white;
+}

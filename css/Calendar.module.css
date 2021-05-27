@@ -1,0 +1,59 @@
+.calendarHeader {
+  font-size: .75em;
+}
+
+.dateHeader {
+  padding-top:1em;
+  width: 3em;
+  font-size: .65em;
+  padding-bottom:1em;
+}
+
+.calendarButtons {
+  padding: 0;
+  margin-bottom: 0em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.calendarButtons a {
+  margin-bottom: 1em;
+  font-size: .75em;
+  color: white;
+}
+
+.today {
+  background-color: #a8577b;
+}
+
+.calendar {
+  width: 100%;
+  margin-top: 3em;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+.calendar table {
+  border: 0px;
+  margin-top: 1em;
+  border-spacing: 0px;
+  display: block;
+  border-collapse: collapse;
+  top: 6em;
+  position: absolute;
+  /* Just. Wow. Mistakes were made. This is a magic number to center only the middle 7 columns of the table.*/
+  right: calc(50% - 2.6em - 3.25em - 11.69em / 2);
+}
+
+.calendar ~ td {
+  padding: 0px;
+}
+
+.spacer {
+  /*fix this*/
+  width: 8.3em;
+}

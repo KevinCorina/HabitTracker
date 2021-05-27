@@ -1,0 +1,42 @@
+.cell {
+    width: 1em;
+    height: 1em;
+    border-radius: 20%; 
+    padding: 0px;
+    margin-top:.2em;
+    display: inline-block;
+    padding: 0;
+}
+
+.cell:hover {
+    cursor: pointer;
+}
+
+td {
+    justify-content: center;
+    height: 1.6em;
+}
+
+.off {
+    background-color: white;
+}
+
+.on {
+    background-color: #2a9d8f;
+}
+
+.today {
+    background-color: #a8577b;
+    padding: 0px;
+}
+
+.today .cell.on {
+    border: 2px solid white;
+}
+
+.over {}
+
+.today.over {
+    background-color: #763d56;
+    padding: 0px;
+}

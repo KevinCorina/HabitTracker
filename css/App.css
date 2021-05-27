@@ -1,0 +1,51 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #264653;
+  text-align: center;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;  
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+nav  {
+  padding-right: 1em;
+  margin: 1em;
+  padding-left: 0em;
+  position: absolute;
+  right:1em;
+  text-align:right;
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+}
